@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedListNode.cs" />
+    <Compile Include="SingleLinkedList.cs" />
     <Compile Include="Stack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
