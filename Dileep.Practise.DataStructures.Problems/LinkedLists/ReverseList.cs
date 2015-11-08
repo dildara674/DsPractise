@@ -1,7 +1,7 @@
 public class ReverseList()
 {
 
-public static void TestReverseIterative()
+public void TestReverseIterative()
     {
         Console.WriteLine("Test started!");
         SingleLinkedList list = new SingleLinkedList();
@@ -18,7 +18,7 @@ public static void TestReverseIterative()
         Console.WriteLine("Test Ended!");
     }
     
-    public static SingleLinkedList ReverseLinkedListRecursive(SingleLinkedList list)
+    public SingleLinkedList ReverseLinkedListRecursive(SingleLinkedList list)
     {
         if(list.Head == null) return list;
         
@@ -32,7 +32,7 @@ public static void TestReverseIterative()
         return list;
     }
     
-    public static void ReverseNodes(LinkedListNode node)
+    public void ReverseNodes(LinkedListNode node)
     {
         if(node.Next == null)
         {
@@ -44,7 +44,7 @@ public static void TestReverseIterative()
         node.Next = null;
     }
     
-    public static SingleLinkedList ReverseLinkedListIterative(SingleLinkedList list)
+    public SingleLinkedList ReverseLinkedListIterative(SingleLinkedList list)
     {
         Console.WriteLine("Reverse Started!");
         if(list.Head == null) return null;
