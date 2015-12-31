@@ -1,22 +1,10 @@
-public class ReverseList()
+using System;
+using Dileep.Practise.DataStructures.AbstractDataTypes;
+
+public class ReverseList
 {
 
-public void TestReverseIterative()
-    {
-        Console.WriteLine("Test started!");
-        SingleLinkedList list = new SingleLinkedList();
-        list.AddFront(3);
-        list.AddFront(2);
-        list.AddFront(1);
-        
-        
-        list.Print();
-        //list = ReverseLinkedListIterative(list);
-        list = ReverseLinkedListRecursive(list);
-        Console.WriteLine("Reverse Ended!");
-        list.Print();
-        Console.WriteLine("Test Ended!");
-    }
+    
     
     public SingleLinkedList ReverseLinkedListRecursive(SingleLinkedList list)
     {

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dileep.Practise.DataStructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dileep.Practise.DataStructures.Promblems.UnitTests", "Dileep.Practise.DataStructures.Promblems.UnitTests\Dileep.Practise.DataStructures.Promblems.UnitTests.csproj", "{B848E19D-BBFF-4930-885C-9A328733C58A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dileep.Practise.Algorithms", "Dileep.Practise.Algorithms\Dileep.Practise.Algorithms.csproj", "{9DF0735E-284C-4FB3-B36C-C3EDD2E2BE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dileep.Practise.Algorithms.UnitTests", "Dileep.Practise.Algorithms.UnitTests\Dileep.Practise.Algorithms.UnitTests.csproj", "{8B07B20E-23B8-428B-9D67-5C1C80F7992F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B848E19D-BBFF-4930-885C-9A328733C58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B848E19D-BBFF-4930-885C-9A328733C58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B848E19D-BBFF-4930-885C-9A328733C58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF0735E-284C-4FB3-B36C-C3EDD2E2BE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF0735E-284C-4FB3-B36C-C3EDD2E2BE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF0735E-284C-4FB3-B36C-C3EDD2E2BE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF0735E-284C-4FB3-B36C-C3EDD2E2BE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B07B20E-23B8-428B-9D67-5C1C80F7992F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B07B20E-23B8-428B-9D67-5C1C80F7992F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B07B20E-23B8-428B-9D67-5C1C80F7992F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B07B20E-23B8-428B-9D67-5C1C80F7992F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

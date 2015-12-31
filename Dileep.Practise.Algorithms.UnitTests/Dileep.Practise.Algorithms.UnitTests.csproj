@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B848E19D-BBFF-4930-885C-9A328733C58A}</ProjectGuid>
+    <ProjectGuid>{8B07B20E-23B8-428B-9D67-5C1C80F7992F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dileep.Practise.DataStructures.Promblems.UnitTests</RootNamespace>
-    <AssemblyName>Dileep.Practise.DataStructures.Promblems.UnitTests</AssemblyName>
+    <RootNamespace>Dileep.Practise.Algorithms.UnitTests</RootNamespace>
+    <AssemblyName>Dileep.Practise.Algorithms.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,18 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="NthElementFromEndTests.cs" />
+    <Compile Include="SortingTechniquesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReverseListTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AbstractDataTypes\Dileep.Practise.DataStructures.AbstractDataTypes.csproj">
-      <Project>{65808bf8-d271-433c-b701-5e88f2ff0d28}</Project>
-      <Name>Dileep.Practise.DataStructures.AbstractDataTypes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Dileep.Practise.DataStructures.Problems\Dileep.Practise.DataStructures.Problems.csproj">
-      <Project>{e2be7544-e19f-40ae-a9ed-54d96a9b370e}</Project>
-      <Name>Dileep.Practise.DataStructures.Problems</Name>
+    <ProjectReference Include="..\Dileep.Practise.Algorithms\Dileep.Practise.Algorithms.csproj">
+      <Project>{9df0735e-284c-4fb3-b36c-c3edd2e2be0c}</Project>
+      <Name>Dileep.Practise.Algorithms</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
