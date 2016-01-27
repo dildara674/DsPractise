@@ -23,6 +23,19 @@ namespace Dileep.Practise.DataStructures.UnitTests
         }
 
         [TestMethod]
+        public void AddTests()
+        {
+            Tree = new BinaryTree();
+            Tree.Add(5);
+            Tree.Add(4);
+            Tree.Add(6);
+            Tree.Add(3);
+            Tree.Add(7);
+            Tree.TraversPreOrder();
+        }
+
+
+        [TestMethod]
         public void TraversePreOrderTest()
         {
             Tree.TraversPreOrder();

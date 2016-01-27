@@ -17,7 +17,49 @@ namespace Dileep.Practise.DataStructures.AbstractDataTypes
 
         public BinaryTreeNode Root { get; set; }
 
-        
+        //Add a node to Binary Tree
+        public void Add(int value)
+        {
+            if (Root == null)
+            {
+                BinaryTreeNode node = new BinaryTreeNode() {Value = value};
+                Root = node;
+            }
+            else
+            {
+                var root = Root;
+                while (root != null)
+                {
+                    if (value >= root.Value)
+                    {
+                        if (root.Right == null)
+                        {
+                            root.Right = new BinaryTreeNode() { Value = value };
+                            return;
+                        }
+                        else
+                        {
+                            root = root.Right;
+                        }
+                        
+                    }
+                    else
+                    {
+                        if (root.Left == null)
+                        {
+                            root.Left = new BinaryTreeNode() { Value = value };
+                            return;
+                        }
+                        else
+                        {
+                            root = root.Left;
+                        }
+                    }
+                }
+                
+            }
+        }
+
         //Methods
         public void TraversPreOrder()
         {
